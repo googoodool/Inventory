@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+/* body {
+  font-family: "Prompt", sans-serif;
+} */
+
+#text-stock-in {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Prompt", sans-serif;
+  color: rgb(14, 21, 117);
+}
+#text-stock-in-payment {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Prompt", sans-serif;
+  color: rgb(244, 244, 245);
+}
+#text-stock-in-table {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Prompt", sans-serif;
+}
+#text-head-card {
+  font-family: "Prompt", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(14, 21, 117);
+}
+#text-stock-in-table-th {
+  font-size: 14px;
+  font-weight: 50;
+  font-family: "Prompt", sans-serif;
+  color: rgb(2, 2, 2);
+}
+#FixHistory_tbody {
+  font-family: "Prompt", sans-serif;
+  font-size: 14px;
+}
+.main-header {
+  background-image: linear-gradient(
+    to right,
+    rgb(54, 72, 175),
+    rgba(107, 54, 175, 1)
+  );
+}
+.main-sidebar {
+  background-color: rgb(27, 24, 74);
+}
+.select2-selection__choice {
+  color: black !important;
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url("images/loader.gif") no-repeat center center;
+  z-index: 9999;
+}
